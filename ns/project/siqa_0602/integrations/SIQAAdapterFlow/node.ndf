@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">siqadeveloper2</value>
-    <value name="lastModifiedDate">1738816471450</value>
+    <value name="lastModifiedDate">1738816569703</value>
     <value name="displayName">SIQAAdapterFlow</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -63,10 +63,9 @@
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
           <value name="operationName">test</value>
+          <null name="description"/>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
-          <value name="connectionType">sagcloud</value>
-          <value name="projectName">project.siqa_0602</value>
         </record>
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
